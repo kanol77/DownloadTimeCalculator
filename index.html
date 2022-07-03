@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Time Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="icon.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1 onclick="window.location.reload()">Download Time Calculator</h1>
+        <label for="header">Calculate your download time!</label>
+    </header>
+    <article>
+        <div class="calc-box">
+            <div class="files">
+                File size:
+                <input type="number" name="" id="file-size">
+                <input type="radio" name="size" id="kilobytes" class="selected"> KB
+                <input type="radio" name="size" id="megabytes" class="selected"> MB
+                <input type="radio" name="size" id="gigabytes" class="selected"> GB
+            </div>
+            <div class="network">
+                Bandwidth speed:
+                <input type="number" name="" id="bandwidth-speed">
+                <input type="radio" name="bandwidth" id="kilobits-a-second" class="selected"> kb/s
+                <input type="radio" name="bandwidth" id="megabits-a-second" class="selected"> Mb/s
+                <input type="radio" name="bandwidth" id="gigabits-a-second" class="selected"> Gb/s
+            </div>
+            <button id="calc">Calculate</button>
+            <div id="outcome"></div>
+            <h6>If you don't know your internet speed you can check it here: </h6><br>
+            <a target="_blank" href="https://www.speedtest.net">SPEEDTEST.NET</a>
+        </div>
+    </article>
+    <footer>
+        <h3>Site created by kanol77</h3>
+    </footer>
+</body>
+</html>
