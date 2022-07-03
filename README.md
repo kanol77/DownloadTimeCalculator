@@ -1,2 +1,2 @@
 # DownloadTimeCalculator
-JS Download Time Calculator
+This repo contains files that make up a JavaScript based Download Time Calculator. The index.html file contains the structure of the page. The style.css file contains the styles of the page. The script.js file contains the necessary script that calculates the download times. The icon.svg file is the icon of the page. Bear in mind that the calculations ale approximated and might not be 100% accurate due to signal interference, unstable connection, protocol overhead and many more.
